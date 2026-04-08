@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-windy-darker text-gray-100;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-windy-green via-windy-teal to-windy-darkgreen;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-windy-dark via-windy-darker to-black;
+  }
+}
+
+/* Gradient mesh background */
+.gradient-mesh {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(52, 211, 153, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(20, 184, 166, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 50%);
+}
+
+/* CTA glow pulse */
+.cta-glow {
+  animation: glow-pulse 2.5s ease-in-out infinite;
+}
+
+/* Subtle card shimmer on hover */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.card-shimmer:hover {
+  background-image: linear-gradient(
+    110deg,
+    transparent 25%,
+    rgba(52, 211, 153, 0.03) 37%,
+    transparent 63%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out;
+}
+
+/* Stats counter glow */
+.stat-glow {
+  text-shadow: 0 0 30px rgba(52, 211, 153, 0.4);
+}
+
+/* Badge shimmer */
+@keyframes badge-shimmer {
+  0% { background-position: -100% center; }
+  100% { background-position: 200% center; }
+}
+
+.badge-shimmer {
+  background-image: linear-gradient(
+    110deg,
+    rgba(52, 211, 153, 0.8) 0%,
+    rgba(20, 184, 166, 1) 45%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(20, 184, 166, 1) 55%,
+    rgba(52, 211, 153, 0.8) 100%
+  );
+  background-size: 200% 100%;
+  animation: badge-shimmer 3s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Pricing card popular ring */
+.popular-ring {
+  position: relative;
+}
+.popular-ring::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #34d399, #14b8a6, #10b981, #34d399);
+  background-size: 300% 300%;
+  animation: border-rotate 4s linear infinite;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+@keyframes border-rotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Chat bubble styles for LiveTranslation */
+.chat-bubble-left {
+  border-radius: 1.25rem 1.25rem 1.25rem 0.25rem;
+}
+.chat-bubble-right {
+  border-radius: 1.25rem 1.25rem 0.25rem 1.25rem;
+}
