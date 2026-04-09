@@ -3,8 +3,11 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import LiveTranslation from './components/LiveTranslation'
+import SocialFeed from './components/SocialFeed'
+import AgentIntegration from './components/AgentIntegration'
 import Pricing from './components/Pricing'
 import Ecosystem from './components/Ecosystem'
+import Privacy from './components/Privacy'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import FinalCTA from './components/FinalCTA'
@@ -18,8 +21,11 @@ function App() {
       <Features />
       <HowItWorks />
       <LiveTranslation />
+      <SocialFeed />
+      <AgentIntegration />
       <Pricing />
       <Ecosystem />
+      <Privacy />
       <Testimonials />
       <FAQ />
       <FinalCTA />

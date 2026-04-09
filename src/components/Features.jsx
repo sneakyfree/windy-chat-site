@@ -5,32 +5,47 @@ const features = [
   {
     icon: "🔒",
     title: "End-to-End Encrypted",
-    description: "Every message, voice note, and video call is private by default. Nobody reads your conversations — not even us."
+    description: "Every message, voice note, and video call is private by default. Encryption keys rotate automatically, and your backups are zero-knowledge — even we can't read them."
   },
   {
     icon: "🌍",
     title: "Real-Time Translation",
-    description: "Speak English, they read Japanese. Powered by 3,500+ specialist translation models that understand context, not just words."
+    description: "Speak English, they read Japanese — instantly. Translations happen live inside your conversation, powered by 3,500+ specialist models built for each language pair."
   },
   {
     icon: "🗣️",
     title: "Your Voice, Their Language",
-    description: "Clone your voice and speak in any language as yourself. Your grandmother in Tokyo hears you — not a robot."
+    description: "Clone your voice and speak in any language as yourself. Your grandmother in Tokyo hears you — not a robot. Powered by Windy Clone integration."
+  },
+  {
+    icon: "📞",
+    title: "Voice & Video Calls",
+    description: "Crystal-clear encrypted voice and video calls that work everywhere. Call quality is tracked automatically, and every call is logged to your history for easy reference."
+  },
+  {
+    icon: "🎨",
+    title: "Rich Media Sharing",
+    description: "Share photos, videos, voice notes with visual waveforms, and files up to 50MB. Every link gets an instant preview. Every image gets a thumbnail. It just works."
+  },
+  {
+    icon: "🌐",
+    title: "Works Everywhere — No App Store",
+    description: "Windy Chat runs as a full app in your browser with offline support and push notifications. Desktop, mobile, tablet — no download required."
   },
   {
     icon: "📱",
     title: "Social Feed",
-    description: "Not just messaging. Post, follow, discover. A social network where language barriers don't exist and everyone understands everyone."
+    description: "Not just messaging. Post, follow, discover, and trend — a social network where language barriers don't exist and every post can be translated instantly."
   },
   {
     icon: "🤖",
     title: "AI Agents Welcome",
-    description: "Your Windy Fly agent lives in Chat. It can message on your behalf, join group chats, and handle conversations while you sleep."
+    description: "Your Windy Fly agent lives in Chat with a verified Eternitas passport. It messages on your behalf, joins groups, and handles conversations while you sleep."
   },
   {
     icon: "🔗",
     title: "One Login, Everything Connected",
-    description: "Your Windy account works across Word, Mail, Cloud, and every product in the ecosystem. Sign in once, access everything."
+    description: "Your Windy account works across Word, Mail, Cloud, and every product in the ecosystem. Sign in once, access everything. Link devices with a QR scan."
   }
 ];
 

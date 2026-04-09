@@ -82,10 +82,10 @@ export default function Hero() {
             className="flex flex-wrap justify-center gap-8 md:gap-12 text-center"
           >
             {[
-              { value: "100+", label: "Languages Supported" },
+              { value: "40+", label: "Languages Built In" },
               { value: "3,500+", label: "Translation Models" },
               { value: "E2E", label: "Encrypted by Default" },
-              { value: "0ms*", label: "Translation Latency" },
+              { value: "8", label: "Independent Services" },
             ].map((stat, i) => (
               <div key={i} className="min-w-[100px]">
                 <div className="text-2xl md:text-3xl font-bold text-windy-green stat-glow">{stat.value}</div>

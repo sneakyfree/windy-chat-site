@@ -4,31 +4,39 @@ import { useRef, useState } from 'react';
 const faqs = [
   {
     question: "Is Windy Chat free?",
-    answer: "Yes! Personal messaging with end-to-end encryption is completely free. You get 5 translated messages per day, 1 group chat, and voice notes. Upgrade to Pro for unlimited translation, unlimited groups, and voice clone messaging."
+    answer: "Yes! Personal messaging with end-to-end encryption is completely free. You get 5 translated messages per day, 1 group chat, and voice notes. Upgrade to Pro for unlimited translation, unlimited groups up to 50 members, voice clone messaging, and the full social feed."
   },
   {
     question: "How does the translation work?",
-    answer: "Windy Chat uses 3,500+ specialist translation models — not a single general-purpose translator. Each language pair has its own dedicated AI model that understands context, idioms, and nuance. Your message is translated in real-time before it reaches the other person."
+    answer: "Windy Chat uses 3,500+ specialist translation models — not a single general-purpose translator. Each language pair has its own dedicated AI that understands context, idioms, and nuance. Translations appear live inside your conversation as related messages, so everyone sees the original and the translation side by side. It's not a post-hoc overlay — it's built into the messaging layer itself."
   },
   {
     question: "Can my AI agent use Windy Chat?",
-    answer: "Absolutely. Your Windy Fly agent is a first-class citizen in Chat. It can send and receive messages, join group chats, translate in real-time, and handle conversations on your behalf while you're away. Every agent carries an Eternitas passport so everyone knows who they're talking to."
+    answer: "Absolutely. When your Windy Fly agent hatches, it automatically gets its own chat identity and a direct message room with you. Its first message is a personalized greeting. From there, it can join group chats, message on your behalf, notify you when tasks are done, and operate across time zones. Every agent carries a verified Eternitas passport with a trust score, so everyone knows exactly who — or what — they're talking to."
   },
   {
     question: "Is it really encrypted?",
-    answer: "Every message, voice note, file, and video call is end-to-end encrypted by default. Nobody can read your conversations — not us, not your internet provider, nobody. Your keys, your data, your privacy."
+    answer: "Every message, voice note, file, and video call is end-to-end encrypted by default. Encryption keys rotate automatically every 100 messages or 7 days. Cross-signing verifies your devices. Cloud backups use zero-knowledge AES-256 encryption — we literally cannot decrypt your data. Even push notifications are designed to never contain message text."
   },
   {
     question: "How is this different from WhatsApp or Telegram?",
-    answer: "WhatsApp and Telegram are messaging apps. Windy Chat is a messaging + social platform with built-in real-time translation across 100+ languages, voice cloning so you can speak in any language as yourself, AI agents that participate in chats, and deep integration with the entire Windy ecosystem."
+    answer: "WhatsApp and Telegram are messaging apps. Windy Chat is a messaging + social platform with real-time translation across 40+ languages baked into the messaging layer, voice cloning so you can speak any language as yourself, a full social feed with posts and trending topics, a browsable directory of verified AI agents, QR-code device pairing, zero-knowledge encrypted backups, and deep integration with nine other products in the Windy ecosystem."
   },
   {
     question: "Can I use my voice clone in chat?",
-    answer: "Yes! With Windy Pro, you can send voice messages that are automatically translated into the recipient's language — in your own voice. It uses your Windy Clone voice model so your grandmother in Tokyo hears you, not a robot."
+    answer: "Yes! With Windy Pro, you can send voice messages that are automatically translated into the recipient's language — in your own voice. It uses your Windy Clone voice model so your grandmother in Tokyo hears you, not a robot. Voice notes also get visual waveforms for easy scrubbing."
   },
   {
     question: "What languages are supported?",
-    answer: "Windy Chat supports 100+ languages through 3,500+ specialist translation models. Every major world language is covered, plus hundreds of language pairs that most translation services don't support. New pairs are added regularly."
+    answer: "Windy Chat natively supports 40+ languages for profiles, interface, and translation — including English, Spanish, French, German, Japanese, Korean, Chinese, Arabic, Hindi, Portuguese, Russian, Thai, Vietnamese, Turkish, and many more. Translation covers 3,500+ language pair combinations through specialist models. New pairs are added regularly."
+  },
+  {
+    question: "Do I need to download an app?",
+    answer: "Nope. Windy Chat works as a Progressive Web App — a full-featured app that runs right in your browser with offline support, push notifications, and desktop-app-quality performance. No app store, no download, no waiting. Just open it and start chatting."
+  },
+  {
+    question: "How do I link my phone and computer?",
+    answer: "Just scan a QR code — like WhatsApp, but more secure. The pairing uses modern key exchange to link your devices. You can connect up to 5 devices to a single account, and all of them stay in sync with end-to-end encryption."
   }
 ];
 
