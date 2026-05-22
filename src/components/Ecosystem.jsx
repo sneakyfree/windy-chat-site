@@ -68,7 +68,7 @@ const flywheelSteps = [
     verb: "You create.",
     hook: "AI-native code editor. Build apps, ship features, and collaborate with your AI agent — all from one workspace.",
     desire: "The IDE that thinks alongside you.",
-    link: "https://windycode.ai",
+    link: "https://windycode.org",
     color: "from-violet-500 to-indigo-500",
     ring: "ring-violet-500/30"
   },
