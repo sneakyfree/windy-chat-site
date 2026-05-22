@@ -10,7 +10,7 @@ export default function Footer() {
     { name: "WindyTranslate.com", url: "https://windytranslate.com", desc: "Translation Engine" },
     { name: "WindyMail.ai", url: "https://windymail.ai", desc: "AI Email" },
     { name: "WindyFly.ai", url: "https://windyfly.ai", desc: "AI Agent" },
-    { name: "WindyCode.ai", url: "https://windycode.ai", desc: "Code Editor" },
+    { name: "WindyCode.ai", url: "https://windycode.org", desc: "Code Editor" },
     { name: "WindyCloud.com", url: "https://windycloud.com", desc: "Cloud Storage" },
     { name: "Eternitas.ai", url: "https://eternitas.ai", desc: "AI Identity" }
   ];
