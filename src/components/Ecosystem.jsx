@@ -8,7 +8,7 @@ const flywheelSteps = [
     verb: "You speak.",
     hook: "Voice-to-text intelligence powered by 3,500+ specialized AI models. Your voice becomes beautiful, searchable, permanent data.",
     desire: "Every meeting, every thought — captured with surgical precision.",
-    link: "https://windyword.com",
+    link: "https://windyword.ai",
     color: "from-blue-500 to-cyan-500",
     ring: "ring-blue-500/30"
   },

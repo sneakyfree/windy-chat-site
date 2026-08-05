@@ -4,7 +4,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const windyApps = [
-    { name: "WindyWord.ai", url: "https://windyword.com", desc: "Voice → Text" },
+    { name: "WindyWord.ai", url: "https://windyword.ai", desc: "Voice → Text" },
     { name: "WindyClone.ai", url: "https://windyclone.com", desc: "Digital Twin" },
     { name: "WindyTraveler.com", url: "https://windytraveler.com", desc: "Travel Companion" },
     { name: "WindyTranslate.com", url: "https://windytranslate.com", desc: "Translation Engine" },
